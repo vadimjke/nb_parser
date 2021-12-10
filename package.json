@@ -1,6 +1,6 @@
 {
   "name": "nb_parser",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/vadimjke/nb_parser.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vadimjke/nb_parser/issues"
   },
-  "homepage": "https://github.com/vadimjke/nb_parser#readme"
+  "homepage": "https://github.com/vadimjke/nb_parser#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "puppeteer": "^13.0.0"
+  }
 }
